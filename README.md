@@ -1,8 +1,9 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
 
-#### Developed by: Oswald Shilo
-#### Reg No: 212223040139
-
+```
+Developed by: Oswald Shilo
+Reg No: 212223040139
+```
 
 ## **AIM:**
 To implement the given logic function verify its operation in Quartus using Verilog programming.
@@ -49,7 +50,7 @@ Displays the hardware structure of the Boolean function, helping in understandin
 
 ## **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+##### Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
 ```
 module ex2(a,b,c,d,f1);
@@ -58,6 +59,7 @@ output f1;
 assign f1=((~b & ~d) | (a & b & ~c) | (~a & b & d));
 endmodule
 ```
+
 ```
 module ex2m2(w,x,y,z,f2);
 input w,x,y,z;
@@ -66,15 +68,25 @@ assign f2= ((~y&z)|(w&y)|(x&y));
 endmodule
 ```
 
-**RTL realization**
 
-**Output:**
 
-**RTL**
+## **Truth Table:**
 
-**Timing Diagram**
+![2 1 truth table](https://github.com/user-attachments/assets/6a3f7a61-4175-4183-bb22-e91ce1e5bfea)
+![2 2 truth table](https://github.com/user-attachments/assets/a94b9962-e99c-4028-a265-5c906cca8121)
 
-**Result:**
+
+## **RTL**
+![image](https://github.com/user-attachments/assets/0b616916-2bcd-4b3f-b204-8ee8d662b71d)
+![image](https://github.com/user-attachments/assets/94112fb2-d4d7-41d2-a6e8-1385670fe380)
+
+
+## **Timing Diagram**
+![image](https://github.com/user-attachments/assets/5c2f70fe-3c62-474a-a2a5-f4a59318c48f)
+![image](https://github.com/user-attachments/assets/bab2bc55-4617-46aa-8786-fbb0f76f4c24)
+
+
+## **Result:**
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
